@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="see.css">
+	<title>trabajito</title>
+</head>
+<body onkeypress="kei();" background="pini.jpg">
+	<center>
+	<div class="uno" id="b1"  ><h1>escriba algo y presione A, B O C</h1>
+<br>
+<br>
+<br>
+
+	</div>
+
+<input type="text" id="b2" class="tete" style="position: relative; top: -275px; ">
+
+	<script type="text/javascript">
+		
+var kei=function()
+{
+
+console.log('hola');
+
+if (event.code=="KeyA") {
+	console.log('holo');
+
+var a=document.getElementById('b1');
+a.className="que";
+
+
+var mse=document.getElementById('b2').value;
+document.getElementById('b1').innerHTML=mse;
+
+
+
+}
+if (event.code=="KeyB") {
+var a=document.getElementById('b1');
+a.className="wue";
+
+
+var mse=document.getElementById('b2').value;
+document.getElementById('b1').innerHTML=mse;
+
+
+
+
+
+}
+if (event.code=="KeyC") {
+var a=document.getElementById('b1');
+a.className="yue";
+
+
+var mse=document.getElementById('b2').value;
+document.getElementById('b1').innerHTML=mse;
+
+
+
+}
+
+
+
+
+
+
+}
+
+
+
+	</script>
+
+
+</center>
+</body>
+</html>

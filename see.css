@@ -1,0 +1,46 @@
+body
+{
+	background-size: cover;
+}
+
+.uno1
+{
+width: 700px; height: 420px; border: solid black 2px; background-color:#1ABC9C; font-family: verdana;
+}
+.uno
+{
+width: 700px; height: 400px; border: solid black 2px; background-color:#1ABC9C; font-family: verdana;
+}
+
+.tete
+{
+	width: 250px; height: 30px;
+	border: solid black 2px;
+}
+.tete1
+{
+	width: 250px; height: 31px;
+	border: solid black 2px;
+}
+
+.que
+{width: 700px; height: 420px; border: solid black 2px; 
+ font-family: verdana; font-size: 50px;
+background-image: "f2.jpg";
+ background-color: red;
+}
+
+
+.wue
+{
+	width: 700px; height: 420px; border: solid black 2px; 
+ font-family: verdana; font-size: 50px;
+background-color: yellow;
+}
+
+.yue
+{
+	width: 700px; height: 420px; border: solid black 2px; 
+ font-family: verdana; font-size: 50px;
+background-color: green;
+}
